@@ -3,8 +3,6 @@
 {{!-- The tag above means: insert everything in this file
 into the {body} tag of the default.hbs template --}}
 
-<link rel="stylesheet" href="/libs/highlight/styles/atom-one-dark.min.css">
-
 {{#post}}
 {{!-- Everything inside the #post block pulls data from the post --}}
 
@@ -161,10 +159,3 @@ into the {body} tag of the default.hbs template --}}
 {{/if}}
 
 {{/post}}
-
-<script src="/libs/highlight/highlight.min.js"></script>
-<script>
-    $(function() {
-        hljs.highlightAll();
-    });
-</script>
