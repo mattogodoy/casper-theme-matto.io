@@ -47,12 +47,14 @@
             <div class="gh-head-actions">
                 <button class="gh-search" data-ghost-search>{{> "icons/search"}}</button>
                 <div class="gh-social">
-                    {{#if @site.facebook}}
+                    {{!-- {{#if @site.facebook}}
                         <a class="gh-social-link gh-social-facebook" href="{{facebook_url @site.facebook}}" title="Facebook" target="_blank" rel="noopener">{{> "icons/facebook"}}</a>
                     {{/if}}
                     {{#if @site.twitter}}
                         <a class="gh-social-link gh-social-twitter" href="{{twitter_url @site.twitter}}" title="Twitter" target="_blank" rel="noopener">{{> "icons/twitter"}}</a>
-                    {{/if}}
+                    {{/if}} --}}
+                    <a class="gh-social-link gh-social-twitter" href="https://matto.io" title="Github" target="_blank" rel="noopener"><img src="svg/github.svg"></a>
+                    <a class="gh-social-link gh-social-twitter" href="https://matto.io" title="Linkedin" target="_blank" rel="noopener"><img src="svg/linkedin.svg"></a>
                 </div>
                 {{#if @site.members_enabled}}
                     {{#unless @member}}
